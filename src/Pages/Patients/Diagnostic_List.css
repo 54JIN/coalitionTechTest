@@ -1,0 +1,57 @@
+.Diagnostic_List {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+    height: 26vh;
+}
+
+.Diagnostic_List h4 {
+    font-size: 1.3vw;
+    margin-top: 0px;
+    margin-bottom: 1.2vw;
+}
+
+.Diagnostic_List-title {
+    display: flex;
+    background-color: #F6F7F8;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.Diagnostic_List-title h6 {
+    font-size: 0.7vw;
+    margin-top: 0.7vw;
+    margin-bottom: 0.7vw;
+}
+
+.Diagnostic_List-problem {
+    width: 25%;
+}
+
+.Diagnostic_List-descr {
+    width: 60%;
+}
+
+.Diagnostic_List-status {
+    width: 15%;
+}
+
+.Diagnostic_List-contnet {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    overflow-y: scroll;
+}
+
+.Diagnostic_List-content-detail {
+    display: flex;
+}
+
+.Diagnostic_List-content-detail p {
+    font-size: 0.8vw;
+}

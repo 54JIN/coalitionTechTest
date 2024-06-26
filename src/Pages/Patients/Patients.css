@@ -1,0 +1,24 @@
+.Patients {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Patients-left {
+    width: 23vw;
+}
+
+.Patients-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 51vw;
+    height: 87vh;
+}
+
+.Patients-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20vw;
+    height: 87vh;
+}

@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
+import axios from 'axios';
+
+//Imported Components
+import Header from './Pages/Header/Header'
+import Patients from './Pages/Patients/Patients'
+
+//CSS Imports
 import './App.css';
 
 function App() {
+  const [data, setData] = useState([])
+  useEffect(() => {
+    const getUsers = async () => {
+      try {
+        const response = await axios.get(`https://fedskillstest.coalitiontechnologies.workers.dev`, {
+          auth: {
+              username: 'coalition',
+              password: 'skills-test'
+          }
+        })
+        setData(response.data)
+      } catch (e) {
+        console.log(e)
+      } 
+    }
+
+    getUsers()
+
+  }, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Patients patients={data}/>
     </div>
   );
 }

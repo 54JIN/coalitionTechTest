@@ -1,0 +1,34 @@
+.PatientsSearch {
+    background-color: white;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 1vw;
+    height: 87vh;
+}
+
+.PatientsSearch-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PatientsSearch-title h2 {
+    font-size: 1.45vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.PatientsSearch-title button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.PatientsSearch-title img {
+    height: 2vh;
+}
+
+.PatientsSearch-patients {
+    height: 92%;
+    overflow-y: scroll;
+}

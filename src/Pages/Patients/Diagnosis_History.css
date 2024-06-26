@@ -1,0 +1,105 @@
+.Diagnosis_History {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+    height: 51vh;
+}
+
+.Diagnosis_History h4 {
+    font-size: 1.45vw;
+    margin-top: 0px;
+    margin-bottom: 0.5vw;
+}
+
+.Diagnosis_History-graph {
+    /* width: 35vw; */
+    height: 25vh;
+    background-color: #F4F0FE;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.Diagnosis_History-rate-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 19vh;
+}
+
+.Diagnosis_History-rate {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+}
+
+.Diagnosis_History-rate p {
+    font-size: 0.7vw;
+    margin-top: 0.3vw;
+    color: #072635;
+}
+
+.Diagnosis_History-rate img {
+    width: 4.5vw;
+    object-fit: cover;
+}
+
+.Diagnosis_History-rate-details p {
+    font-size: 0.8vw;
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw;
+}
+
+.Diagnosis_History-rate-details h4 {
+    font-size: 1.3vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.respiratory-rate {
+    background-color: #E0F3FA;
+}
+
+.temperature-degrees {
+    background-color: #FFE6E9;
+}
+
+.heart-rate {
+    background-color: #FFE6F1;
+}
+
+@media only screen and (max-width: 1300px) {
+    .Diagnosis_History-rate p {
+        font-size: 0.9vw;
+        margin-top: 0.3vw;
+        color: #072635;
+    }
+    
+    .Diagnosis_History-rate img {
+        width: 5.5vw;
+        object-fit: cover;
+    }
+    
+    .Diagnosis_History-rate-details p {
+        font-size: 0.9vw;
+        margin-top: 0.2vw;
+        margin-bottom: 0.2vw;
+    }
+    
+    .Diagnosis_History-rate-details h4 {
+        font-size: 1.5vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,213 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: white;
+    border-radius: 10vw;
+    height: 3vw;
+}
+
+.Header-left {
+    display: flex;
+    width: 9vw;
+}
+
+.Header-left img {
+    width: 9vw;
+    height: 75%;
+}
+
+.Header-left button {
+    width: 13vw;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Header-middle {
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+}
+
+.Header-middle button {
+    width: 7vw;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Header-middle-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+    height: 2vw;
+    border-radius: 1vw;
+}
+
+.Header-middle-content p {
+    font-size: 0.8vw;
+}
+
+.Header-middle img {
+    width: 1vw;
+    object-fit: cover;
+    align-self: center;
+    margin-right: 0.5vw;
+}
+
+.Header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13.5vw;
+}
+
+.Header-right-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9.5vw;
+}
+
+.Header-right-detail img {
+    width: 2vw;
+    object-fit: cover;
+}
+
+.Header-right-detail-content h4 {
+    margin: 0px;
+    font-size: 0.7vw;
+}
+
+.Header-right-detail-content p {
+    margin: 0px;
+    color: #707070;
+    font-size: 0.7vw;
+}
+
+.Header-right-tools button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Header-right-tools img {
+    height: 1vw;
+    object-fit: cover;
+}
+
+.Link-Active {
+    background-color: #01F0D0;
+}
+
+@media only screen and (max-width: 1440px) {
+    .Header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        background-color: white;
+        border-radius: 10vw;
+        height: 4vw;
+    }
+    
+    .Header-left {
+        display: flex;
+        width: 9vw;
+    }
+
+    .Header-left img {
+        width: 9vw;
+        height: 75%;
+    }
+    
+    .Header-left button {
+        width: 13vw;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .Header-middle {
+        display: flex;
+        justify-content: center;
+        width: 35vw;
+    }
+    
+    .Header-middle button {
+        width: 7vw;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .Header-middle-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6vw;
+        height: 2vw;
+        border-radius: 1vw;
+    }
+
+    .Header-middle-content p {
+        font-size: 0.8vw;
+    }
+    
+    .Header-middle img {
+        width: 1vw;
+        object-fit: cover;
+        align-self: center;
+        margin-right: 0.5vw;
+    }
+    
+    .Header-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 13.5vw;
+    }
+    
+    .Header-right-detail {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 9.5vw;
+    }
+    
+    .Header-right-detail img {
+        width: 2vw;
+        object-fit: cover;
+    }
+    
+    .Header-right-detail-content h4 {
+        margin: 0px;
+        font-size: 0.7vw;
+    }
+    
+    .Header-right-detail-content p {
+        margin: 0px;
+        color: #707070;
+        font-size: 0.7vw;
+    }
+    
+    .Header-right-tools button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .Header-right-tools img {
+        height: 1vw;
+        object-fit: cover;
+    }
+    
+    .Link-Active {
+        background-color: #01F0D0;
+    }
+}

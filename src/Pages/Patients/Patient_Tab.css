@@ -1,0 +1,53 @@
+.Patient_Tabs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 6vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.Patient_Tabs-content {
+    display: flex;
+    /* align-items: center; */
+}
+
+.Patient_Tabs-content img {
+    height: 5.5vh;
+    /* object-fit: cover; */
+    margin-right: 1vw;
+}
+
+.Patient_Tabs-content-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.Patient_Tabs-content-details h4 {
+    margin: 0px;
+    font-size: 0.7vw;
+}
+
+.Patient_Tabs-content-details p {
+    margin: 0px;
+    color: #707070;
+    font-size: 0.65vw;
+}
+
+.Patient_Tabs-tools {
+    display: flex;
+
+}
+
+.Patient_Tabs-tools button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Patient_Tabs-tools img {
+    width: 1vw;
+    object-fit: cover;
+}

@@ -1,0 +1,41 @@
+.Lab_Results {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+    height: 20vh;
+}
+
+.Lab_Results h4 {
+    margin-top: 0.3vw;
+    margin-bottom: 0.3vw;
+}
+
+.Lab_Results-wrapper {
+    padding-left: 1vw;
+    overflow-y: scroll;
+}
+
+.Lab_Results-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Lab_Results-content p {
+    font-size: 0.8vw;
+}
+
+.Lab_Results-content button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.Lab_Results-content img {
+    height: 1.2vw;
+}
