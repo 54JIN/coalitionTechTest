@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Chart as ChartJS, defaults } from 'chart.js/auto'
+import { defaults } from 'chart.js/auto'
 import { Line } from 'react-chartjs-2'
 
 //CSS Imports
@@ -63,7 +63,7 @@ class Diagnosis_History extends Component {
                                                 weight: 'bold'
                                             },
                                             usePointStyle: true,
-                                            padding: 59,
+                                            padding: 30,
                                         },
                                     }
                                 }

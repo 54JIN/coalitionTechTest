@@ -80,6 +80,7 @@
 }
 
 @media only screen and (max-width: 1300px) {
+
     .Diagnosis_History-rate p {
         font-size: 0.9vw;
         margin-top: 0.3vw;
@@ -99,6 +100,31 @@
     
     .Diagnosis_History-rate-details h4 {
         font-size: 1.5vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .Diagnosis_History-rate p {
+        font-size: 0.8vw;
+        margin-top: 0.3vw;
+        color: #072635;
+    }
+    
+    .Diagnosis_History-rate img {
+        width: 4vw;
+        object-fit: cover;
+    }
+    
+    .Diagnosis_History-rate-details p {
+        font-size: 0.8vw;
+        margin-top: 0.2vw;
+        margin-bottom: 0.2vw;
+    }
+    
+    .Diagnosis_History-rate-details h4 {
+        font-size: 1.2vw;
         margin-top: 0px;
         margin-bottom: 0px;
     }

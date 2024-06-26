@@ -1,5 +1,5 @@
 #Initialization
-- Be in the root directory: adobefed
+- Be in the root directory: coalitionTechTest so CD if need be
 - Then, on the terminal enter the commands:
     - npm i 
         - This should install all necessary node_modules
